@@ -1,0 +1,26 @@
+/* Write your global styles here, in PostCSS syntax */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link {
+    --tt-key: nav-links;
+
+}
+
+@keyframes nav-links {
+    0% {
+        font-size: 0.5rem;
+    },
+    100% {
+        font-size: 2rem;
+    }
+}
